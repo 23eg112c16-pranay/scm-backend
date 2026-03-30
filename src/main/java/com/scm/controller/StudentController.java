@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://scm-frontend-zikd.onrender.com")
 public class StudentController {
 
     @Autowired

@@ -11,7 +11,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/enrollments")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://scm-frontend-zikd.onrender.com")
 public class EnrollmentController {
 
     @Autowired
